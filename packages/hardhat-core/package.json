@@ -1,10 +1,13 @@
 {
-  "name": "hardhat",
+  "name": "@slingshot_finance/hardhat",
   "version": "2.6.4",
   "author": "Nomic Labs LLC",
   "license": "SEE LICENSE IN LICENSE",
   "homepage": "https://hardhat.org",
-  "repository": "github:nomiclabs/hardhat",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nomiclabs/hardhat.git"
+  },
   "main": "internal/lib/hardhat-lib.js",
   "types": "internal/lib/hardhat-lib.d.ts",
   "description": "Hardhat is an extensible developer tool that helps smart contract developers increase productivity by reliably bringing together the tools they want.",
@@ -161,5 +164,11 @@
       "lcovonly"
     ],
     "all": true
+  },
+  "bugs": {
+    "url": "https://github.com/nomiclabs/hardhat/issues"
+  },
+  "directories": {
+    "test": "test"
   }
 }

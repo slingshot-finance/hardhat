@@ -111,7 +111,8 @@ async function main() {
     }
 
     if (!isHardhatInstalledLocallyOrLinked()) {
-      throw new HardhatError(ERRORS.GENERAL.NON_LOCAL_INSTALLATION);
+      console.log("Using hardhat custom implementation ");
+      // throw new HardhatError(ERRORS.GENERAL.NON_LOCAL_INSTALLATION);
     }
 
     if (willRunWithTypescript(hardhatArguments.config)) {
